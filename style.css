@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-family: 'Lato', sans-serif;
+    background-color: #F5F6FB ;
+
+}
+.main{
+    background-color: #F5F6FB;
+}
+/* Bloco 1 - Banner inicial */
+.banner{
+    position: relative;
+    background: url(images/header.png);
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    padding: 50px;
+}
+.image-banner{
+    width: 150px;
+    height: 60px;
+    margin-top: 15px;
+}
+.banner h1 {
+    color: #ffffff;
+    font-weight: 700;
+    top: 246px;
+    left: 323px;
+    width: 691px;
+    height: 54px;
+    padding-top: 30px;
+}
+.banner p {
+    color: #ffffff;
+    line-height: 1.5em;
+    padding-top: 20px;
+}
+/* Bloco 1 - Banner inicial */
+/* Bloco 2 - Eventos */
+.backgroundExtra{
+    background-color: #ffffff;
+}
+.tabStyle{
+    text-align: center;
+    align-items: center;
+}
+.styleBtnActive{
+    background-color: #ffffff;
+    border: solid 1px #34CDD7;
+    color: #34CDD7;
+    border-radius: 20px 0px 0px 20px;
+    height: 40px;
+    width: 180px;
+    margin-top: 50px;
+}
+.styleBtnActive:hover{
+    background-color: #34CDD7;
+    color: #ffffff;
+}
+
+.styleBtn{
+    border-radius: 0px 20px 20px 0px;
+    background-color: #ffffff;
+    border: solid 1px #34CDD7;
+    color: #34CDD7;
+    height: 40px;
+    width: 180px;
+    margin-top: 50px;
+}
+.styleBtn:hover{
+    border-radius: 0px 20px 20px 0px;
+    background-color: #34CDD7;
+    color: #ffffff;
+}
+
+
+.eventStyle{
+    background-color:#ffffff;
+    text-align: left;
+    border-style: none;
+    margin-left: 20px;
+}
+
+.eventStyle h5{
+    margin-top: 0px;
+    padding-top: 5px;
+    font-weight: 650;
+    color: #1D3C55;
+}
+.EventcardStyle{
+    padding-left: 30px;
+}
+/* Bloco 2 - Eventos */
+/* Bloco 3 - Conteúdos complementares */
+.extra{
+    background-color: #ffffff;
+    text-align: center;
+}
+.extra h2{
+    font-weight: 700;
+    color: 1D3C55;
+    font-size: 40px;
+    margin-bottom: 0px;
+}
+.extra p{
+    color: #717D94;
+    font-size: 30px;
+}
+.stylegrid{
+    padding: 40px;
+    align-items: center;
+}
+.card-title{
+    color: #1D3C55;
+    text-align: left;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+.cta-blog{
+    padding: 60px;
+}
+.card-img-top{
+    padding-top: 0px;
+    box-shadow:  0 0 1em gray;
+}
+.card-img-top1{
+    border-radius: 20px;
+}
+/* Bloco 3 - Conteúdos complementares */
+/* Bloco 4 - Formulário de contato */
+.bloco-contact{
+    background-color: #F5F6FB;
+    text-align: center;
+    padding: 40px;
+}
+.bloco-contact h2 {
+    font-weight: 700;
+    color: 1D3C55;
+    font-size: 40px;
+    margin-bottom: 0px;
+}
+.bloco-contact p {
+    color: #717D94;
+    font-size: 30px;
+    margin-bottom: 40px;
+    
+}
+#input-form{
+    color: #ffffff; 
+    background-color: #34CDD7; 
+    width: 180px; 
+    border-radius: 20px;
+}
+.form-style{
+    display: block;
+    margin: 0 auto;
+    background-color: #ffffff;
+    text-align: left;
+    color: #1D3C55;
+    width: 600px;
+    height: auto;
+    padding: 20px 40px  20px;
+    border-radius: 20px;
+    align-items: center;
+}
